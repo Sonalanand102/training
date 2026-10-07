@@ -1,1 +1,1 @@
-print("Hello day4")
+print("Hello to training repo")
