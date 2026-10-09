@@ -8,3 +8,14 @@ Classify:
 > 100,000       → Lead
 
 """
+salary = int(input("Enter salary: "))
+
+if salary <25000:
+    print("junior")
+elif salary < 50000:
+    print("mid-level")
+elif salary < 100000:
+    print("senior")
+else:
+    print("Lead")
+    

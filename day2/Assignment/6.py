@@ -8,3 +8,14 @@ Age < 13       → Child
 
 Print the appropriate category.
 """
+age =int(input("enter your age: "))
+
+if age <13:
+    print("child")
+elif age <17:
+    print("Teenager")
+elif age < 59:
+    print("Adult")
+else:
+    print("Senior Citizen")
+
