@@ -11,3 +11,12 @@ Otherwise print:
 Invalid credentials
 
 """
+
+
+username = input("enter the username: ")
+password = input("enter the password: ")
+
+if username == "admin" and password == "python123":
+   print("login successful")
+else:
+   print("Invalid credentials")

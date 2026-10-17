@@ -18,3 +18,18 @@ All retry attempts failed
 
 This introduces a real backend concept using only loops + conditions.
 """
+responses = [500, 500, 500, 200]
+
+sucessfull = False
+
+for i in responses:
+    if i == 200:
+        print("request successfull")
+        sucessfull = True
+        break
+    else:
+        print("request faiiled, retrying ....")
+
+if not sucessfull:
+    print("all attempts failed")
+

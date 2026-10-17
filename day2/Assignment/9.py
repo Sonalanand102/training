@@ -13,3 +13,8 @@ Output:
 5
 
 """
+
+n = int(input("enter the value: "))
+
+for _ in range(1, n + 1):
+    print(_)
