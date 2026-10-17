@@ -9,3 +9,8 @@ Input: 5
 5 x 10 = 50
 
 """
+
+num = int(input("enter the num: "))
+
+for i in range(1, 11):
+   print(f"{num} * {1} = {i * num}")
